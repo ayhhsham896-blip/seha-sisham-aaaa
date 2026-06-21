@@ -4,6 +4,9 @@
   "trailingSlash": false,
   "outputDirectory": "public",
   "rewrites": [
-    { "source": "/", "destination": "/index.html" }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/verify", "destination": "/index.html" },
+    { "source": "/visit", "destination": "/VisitReport.html" },
+    { "source": "/medical", "destination": "/MedicalReport.html" }
   ]
 }
