@@ -250,13 +250,3 @@ window.addEventListener('load', () => {
   }
 });
 
-// دالة الدخول كمسؤول
-function adminLogin() {
-  const password = prompt("أدخل كلمة المرور للدخول كمسؤول:");
-  const correctPassword = "12345";
-  if (password === correctPassword) {
-    window.location.href = "admin_inquiry.html";
-  } else if (password !== null) {
-    alert("كلمة المرور غير صحيحة ❌");
-  }
-}
